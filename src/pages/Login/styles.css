@@ -1,0 +1,50 @@
+.FormContainer {
+  box-shadow: 0px 0px 12px black;
+  background-color: rgba(129, 129, 129, 0.507);
+  height: 70vh;
+  width: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+.FormInputsCamp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 80%;
+}
+
+.FormContainer button {
+  margin-top: 2vh;
+}
+.FormContainer label {
+  color: rgba(255, 255, 255, 0.692);
+}
+.FormContainer p {
+  color: rgba(173, 140, 140, 0.897);
+}
+.FormContainer input {
+  color: white;
+}
+img {
+  width: 300px;
+}
+h2 {
+  font-size: 1em;
+}
+@media screen and (min-width: 668px) {
+  .FormContainer {
+    width: 350px;
+    height: 450px;
+  }
+  .FormInputsCamp {
+    width: 90%;
+    height: 90%;
+  }
+  img {
+    width: 450px;
+  }
+}
